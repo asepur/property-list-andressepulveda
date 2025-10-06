@@ -1,0 +1,90 @@
+[
+  {
+    "photo": "foto1.jpg",
+    "location": "Valencia",
+    "reference": "REF-842",
+    "type": "Piso",
+    "address": "Avenida de las Cortes Valencianas, 23 · 46015 Valencia",
+    "price": "2.300.000€",
+    "rooms": 10,
+    "surface": "1.800m2",
+    "date": "08/08/2025"
+  },
+  {
+    "photo": "foto2.jpg",
+    "location": "Valencia",
+    "reference": "REF-864",
+    "type": "Dúplex",
+    "address": "Calle de la Paz, 7 · 46003 Valencia",
+    "price": "1.750.000€",
+    "rooms": 7,
+    "surface": "1.200m2",
+    "date": "07/08/2025"
+  },
+  {
+    "photo": "foto3.jpg",
+    "location": "Valencia",
+    "reference": "REF-562",
+    "type": "Piso",
+    "address": "Calle de Colón, 14 · 46004 Valencia",
+    "price": "2.150.000€",
+    "rooms": 9,
+    "surface": "1.550m2",
+    "date": "07/08/2025"
+  },
+  {
+    "photo": "foto4.jpg",
+    "location": "Valencia",
+    "reference": "REF-098",
+    "type": "Piso",
+    "address": "Plaza del Ayuntamiento, 1 · 46002 Valencia",
+    "price": "2.500.000€",
+    "rooms": 12,
+    "surface": "2.000m2",
+    "date": "04/08/2025"
+  },
+  {
+    "photo": "foto5.jpg",
+    "location": "Alicante",
+    "reference": "REF-321",
+    "type": "Piso",
+    "address": "Calle de la Reina, 11 · 46001 Valencia",
+    "price": "1.900.000€",
+    "rooms": 8,
+    "surface": "1.350m2",
+    "date": "30/07/2025"
+  },
+  {
+    "photo": "foto6.jpg",
+    "location": "Valencia",
+    "reference": "REF-456",
+    "type": "Piso",
+    "address": "Avenida de Francia, 45 · 46002 Valencia",
+    "price": "2.700.000€",
+    "rooms": 11,
+    "surface": "1.900m2",
+    "date": "30/07/2025"
+  },
+  {
+    "photo": "foto7.jpg",
+    "location": "Valencia",
+    "reference": "REF-789",
+    "type": "Piso",
+    "address": "Calle de la Paz, 30 · 46003 Valencia",
+    "price": "1.600.000€",
+    "rooms": 6,
+    "surface": "1.100m2",
+    "date": "22/07/2025"
+  },
+  {
+    "photo": "foto8.jpg",
+    "location": "Alicante",
+    "reference": "REF-234",
+    "type": "Piso",
+    "address": "Calle del Doctor Waksman, 12 · 46006 Valencia",
+    "price": "2.100.000€",
+    "rooms": 9,
+    "surface": "1.400m2",
+    "date": "21/07/2025"
+  }
+]
