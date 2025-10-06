@@ -4,7 +4,7 @@
 // y mejorar la arquitectura del código, he optado por usar un grid layout en lugar de table.
 // ===============================================================================================
 import { useState } from "react";
-import DetailModal from "./DetailModal"
+import DetailModal from "./DetailModal/DetailModal"
 import RowGroup from "./RowGroup";
 import properties from "../data/properties.json";
 
@@ -24,12 +24,12 @@ function Table (){
   };
 
 return (
-    <div className="w-auto overflow-x h-full rounded-t-[8px]">
+    <div className="w-auto overflow-x h-full">
       {/* Contenedor principal del grid */}
       <div 
-        className="grid ..."
+        className="grid ... "
         style={{
-          gridTemplateColumns: "123fr 128fr 165fr 117fr 563fr 152fr 153fr 150fr 175fr",
+          gridTemplateColumns: "123fr 128fr 165fr 117fr 563fr 152fr 153fr 150fr 175fr"
         }}
       >
         {/* Fila de encabezados */}
@@ -45,7 +45,7 @@ return (
             "Superficie",
             "Fecha",
           ].map((header, i) => (
-            <div key={i} className="bg-[#eeeeee] px-[16px] py-[12px] text-gray-700 font-inter font-medium text-base leading-6 tracking-[-0.01em] border-b border-black ">
+            <div key={i} className="bg-[#eeeeee] px-[16px] py-[12px] text-gray-700 font-inter font-medium text-base leading-6 tracking-[-0.01em] border-b border-black">
               {header}
             </div>
           ))}

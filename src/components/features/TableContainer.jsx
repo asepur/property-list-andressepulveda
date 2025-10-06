@@ -1,34 +1,35 @@
 // Componente: TableContainer
 //Descripción: Contenedor del buscador
 // ============================================
+
+import { useState } from "react";
 import { MagnifyingGlassIcon } from "@heroicons/react/16/solid";
 import Table from "./Table";
 
 function TableContainer() {
+  const [searchValue, setSearchValue] = useState("");
+
   return (
     <div className="flex flex-col w-full gap-[16px]">
       <div className="relative flex justify-center w-full">
         {/* Input Field */}
-        <div className=" flex items-center outline-none border border-gray-300 rounded-[8px] p-2 w-[584px] h-[32px] px-[12px]">
-          {/* Icono + Texto simulando placeholder */}
-          <div className="flex items-center gap-2 text-gray-400 pointer-events-none">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="black" className="size-6">
-              <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-            </svg>
-            <span>Buscar</span>
-          </div>
+        <div className="relative flex items-center outline-none border border-gray-300 rounded-[8px] w-[584px] h-[32px] px-[12px] focus-within:border-blue-500 focus-within:ring-1 focus-within:ring-blue-500">
+          {/* Icono de lupa */}
+          <MagnifyingGlassIcon className="w-5 h-5 text-gray-400 mr-2" />
 
-          {/* Input real transparente para capturar valor */}
+          {/* Input funcional */}
           <input
             type="text"
-            className="absolute inset-0 w-full h-full opacity-0"
+            value={searchValue}
+            onChange={(e) => setSearchValue(e.target.value)}
+            placeholder="Buscar"
+            className="flex-1 outline-none text-gray-700 placeholder-gray-400"
           />
         </div>
       </div>
 
       {/* Tabla */}
       <Table />
-
     </div>
   );
 }

@@ -7,8 +7,23 @@
     "address": "Avenida de las Cortes Valencianas, 23 · 46015 Valencia",
     "price": "2.300.000€",
     "rooms": 10,
+    "bathrooms": 2,
     "surface": "1.800m2",
-    "date": "08/08/2025"
+    "date": "08/08/2025",
+    "description": [
+      "Edificio moderno con fachada renovada recientemente y acceso directo a la calle principal de Valencia.",
+      "Ubicación privilegiada en Avenida de las Cortes Valencianas, con proximidad a comercios, transporte y zonas verdes.",
+      "Acabados de alta calidad: suelos de parquet, iluminación integrada, ventanas de doble acristalamiento y domótica básica.",
+      "Estancias amplias y luminosas con distribución abierta, estilo contemporáneo y materiales de diseño."
+    ],   
+    "energyClass": "A",
+    "co2Emissions": "12 kg/m² año",
+    "yearBuilt": 2018,
+    "conservation": "Excelente",
+    "features": ["Terraza", "Piscina comunitaria", "Gimnasio", "Garaje privado", "Ascensor"],
+    "images": ["foto1a.jpg", "foto1b.jpg", "foto1c.jpg"],
+    "details": ["Armarios empotrados", "Aire acondicionado", "Ascensor", "Balcón", "Terraza", "Trastero"]
+
   },
   {
     "photo": "foto2.jpg",
@@ -18,8 +33,22 @@
     "address": "Calle de la Paz, 7 · 46003 Valencia",
     "price": "1.750.000€",
     "rooms": 7,
+    "bathrooms": 2,
     "surface": "1.200m2",
-    "date": "07/08/2025"
+    "date": "07/08/2025",
+    "description": [
+      "Dúplex exclusivo con terraza privada y arquitectura de diseño moderno, combinando estilo clásico y contemporáneo.",
+      "Situado en Calle de la Paz, en el corazón de Valencia, cerca de restaurantes, tiendas y transporte público.",
+      "Acabados de lujo con suelos de mármol, carpintería a medida y sistema de climatización central.",
+      "Espacios amplios y diáfanos, con mucha luz natural y distribución funcional que optimiza cada estancia."
+    ],
+    "energyClass": "B",
+    "co2Emissions": "18 kg/m² año",
+    "yearBuilt": 2005,
+    "conservation": "Muy bueno",
+    "features": ["Balcón", "Aire acondicionado", "Calefacción", "Trastero", "Ascensor"],
+    "images": ["foto2a.jpg", "foto2b.jpg"],
+    "details": ["Terraza privada", "Aire acondicionado", "Cocina equipada", "Trastero", "Vistas a la ciudad"]
   },
   {
     "photo": "foto3.jpg",
@@ -29,8 +58,22 @@
     "address": "Calle de Colón, 14 · 46004 Valencia",
     "price": "2.150.000€",
     "rooms": 9,
+    "bathrooms": 2,
     "surface": "1.550m2",
-    "date": "07/08/2025"
+    "date": "07/08/2025",
+    "description": [
+      "Apartamento elegante en edificio histórico totalmente renovado, con detalles originales conservados.",
+      "Ubicación céntrica en Calle de Colón, rodeado de tiendas de lujo y zonas culturales de Valencia.",
+      "Materiales de alta gama: suelos de madera, cocina equipada con electrodomésticos premium, iluminación LED integrada.",
+      "Estancias luminosas con diseño abierto, estilo moderno y elegante, perfecta combinación de confort y estética."
+    ],
+    "energyClass": "A+",
+    "co2Emissions": "10 kg/m² año",
+    "yearBuilt": 2020,
+    "conservation": "Excelente",
+    "features": ["Terraza", "Garaje", "Conserje 24h", "Domótica", "Zona infantil"],
+    "images": ["foto3a.jpg", "foto3b.jpg", "foto3c.jpg"],     
+    "details": ["Suelos de madera", "Cocina equipada", "Aire acondicionado", "Luminoso", "Espacios abiertos"]
   },
   {
     "photo": "foto4.jpg",
@@ -40,8 +83,22 @@
     "address": "Plaza del Ayuntamiento, 1 · 46002 Valencia",
     "price": "2.500.000€",
     "rooms": 12,
+    "bathrooms": 4,
     "surface": "2.000m2",
-    "date": "04/08/2025"
+    "date": "04/08/2025",
+    "description": [
+      "Piso de gran tamaño en edificio emblemático con fachada restaurada y entrada señorial.",
+      "Situado en Plaza del Ayuntamiento, cerca de servicios, transporte y zonas de ocio de Valencia.",
+      "Acabados refinados: suelos de parquet, molduras decorativas, cocina y baños completamente reformados.",
+      "Habitaciones amplias y luminosas, con diseño funcional y estilo clásico moderno, ideal para familia."
+    ],
+    "energyClass": "B",
+    "co2Emissions": "20 kg/m² año",
+    "yearBuilt": 1925,
+    "conservation": "Reformado",
+    "features": ["Balcón", "Techos altos", "Cocina equipada", "Ascensor", "Conserje"],
+    "images": ["foto4a.jpg", "foto4b.jpg"],     
+    "details": ["Reformado", "Suelos de parquet", "Balcón", "Cocina equipada", "Baños modernos"]
   },
   {
     "photo": "foto5.jpg",
@@ -51,8 +108,23 @@
     "address": "Calle de la Reina, 11 · 46001 Valencia",
     "price": "1.900.000€",
     "rooms": 8,
+    "bathrooms": 2,
     "surface": "1.350m2",
-    "date": "30/07/2025"
+    "date": "30/07/2025",
+    "description": [
+      "Piso contemporáneo con terraza y vistas despejadas, en edificio moderno con ascensor y zonas comunes cuidadas.",
+      "Ubicación estratégica en Calle de la Reina, Alicante, con servicios y transporte cercanos.",
+      "Acabados de calidad: suelos de cerámica, carpintería moderna, aire acondicionado y cocina equipada.",
+      "Distribución funcional de las estancias, espacios luminosos y acogedores, estilo moderno minimalista."
+    ],
+    "energyClass": "C",
+    "co2Emissions": "28 kg/m² año",
+    "yearBuilt": 2010,
+    "conservation": "Bueno",
+    "features": ["Terraza", "Garaje", "Trastero", "Calefacción central", "Ascensor"],
+    "images": ["foto5a.jpg", "foto5b.jpg", "foto5c.jpg"],     
+    "details": ["Armarios empotrados", "Terraza", "Piscina comunitaria", "Aire acondicionado", "Garaje"]
+
   },
   {
     "photo": "foto6.jpg",
@@ -62,8 +134,22 @@
     "address": "Avenida de Francia, 45 · 46002 Valencia",
     "price": "2.700.000€",
     "rooms": 11,
+    "bathrooms": 3,
     "surface": "1.900m2",
-    "date": "30/07/2025"
+    "date": "30/07/2025",
+    "description": [
+      "Amplio piso en edificio con fachada renovada, con zonas comunes modernas y ascensor.",
+      "Ubicado en Avenida de Francia, Valencia, cerca de colegios, comercios y transporte público.",
+      "Materiales de primera: suelos de parquet, ventanas de doble acristalamiento, climatización central.",
+      "Estancias espaciosas y luminosas, estilo contemporáneo y acabados de lujo en toda la vivienda."
+    ],
+    "energyClass": "A",
+    "co2Emissions": "15 kg/m² año",
+    "yearBuilt": 2019,
+    "conservation": "Excelente",
+    "features": ["Piscina", "Garaje", "Zona ajardinada", "Seguridad 24h", "Gimnasio"],
+    "images": ["foto6a.jpg", "foto6b.jpg"],
+    "details": ["Reformado", "Aire acondicionado", "Cocina equipada", "Trastero", "Terraza privada"]
   },
   {
     "photo": "foto7.jpg",
@@ -73,8 +159,23 @@
     "address": "Calle de la Paz, 30 · 46003 Valencia",
     "price": "1.600.000€",
     "rooms": 6,
+    "bathrooms": 2,
     "surface": "1.100m2",
-    "date": "22/07/2025"
+    "date": "22/07/2025",
+    "description": [
+      "Piso acogedor en edificio tranquilo con fachada moderna y entrada reformada.",
+      "Ubicado en Calle de la Paz, Valencia, rodeado de servicios, supermercados y transporte público.",
+      "Acabados de buena calidad: suelos laminados, cocina equipada y sistema de calefacción moderno.",
+      "Distribución práctica de las estancias, con luz natural abundante y estilo funcional contemporáneo."
+    ],
+    "energyClass": "B",
+    "co2Emissions": "19 kg/m² año",
+    "yearBuilt": 2008,
+    "conservation": "Muy bueno",
+    "features": ["Balcón", "Cocina equipada", "Trastero", "Aire acondicionado"],
+    "images": ["foto7a.jpg", "foto7b.jpg", "foto7c.jpg"],
+    "details": ["Luminoso", "Cocina equipada", "Balcón", "Aire acondicionado", "Armarios empotrados"]
+
   },
   {
     "photo": "foto8.jpg",
@@ -84,7 +185,20 @@
     "address": "Calle del Doctor Waksman, 12 · 46006 Valencia",
     "price": "2.100.000€",
     "rooms": 9,
+    "bathrooms": 3,
     "surface": "1.400m2",
-    "date": "21/07/2025"
+    "date": "21/07/2025",
+    "description": [
+      "Piso moderno en edificio con fachada reciente y zonas comunes renovadas, ascensor incluido.",
+      "Situado en Calle del Doctor Waksman, Alicante, con proximidad a servicios, colegios y transporte.",
+      "Acabados de alta calidad: suelos de parquet, cocina de diseño y sistema de climatización eficiente.",
+      "Estancias amplias y luminosas, distribución cómoda y funcional, estilo elegante y contemporáneo."
+    ],    "energyClass": "A+",
+    "co2Emissions": "9 kg/m² año",
+    "yearBuilt": 2021,
+    "conservation": "Excelente",
+    "features": ["Terraza", "Garaje", "Calefacción", "Ascensor", "Zona infantil"],
+    "images": ["foto8a.jpg", "foto8b.jpg"],
+    "details": ["Terraza", "Ascensor", "Aire acondicionado", "Garaje", "Trastero", "Domótica"]
   }
 ]
