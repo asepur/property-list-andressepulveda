@@ -3,6 +3,7 @@
 ## 1️⃣ Información general
 
 **Nombre del proyecto:** Property List  
+**URL:**  https://lcg-propertylist.netlify.app/
 
 **Descripción:**  
 El objetivo principal de esta prueba es recrear el diseño Figma proporcionado y añadir nuevas funcionalidades, adaptándolo también a diferentes dispositivos (mobile y desktop).
