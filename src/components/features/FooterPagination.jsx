@@ -1,4 +1,8 @@
-function FooterPagination(){
+// Componente: FooterPaginaion
+// Descripción: Contenedor del paginador
+// ============================================
+
+export function FooterPagination(){
     return(
         <footer className="flex justify-center items-center  gap-[8px]">
             {/*flecha izquierda */}
@@ -27,5 +31,3 @@ function FooterPagination(){
         </footer>
     );
 }
-
-export default FooterPagination;

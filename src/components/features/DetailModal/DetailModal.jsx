@@ -7,8 +7,8 @@ function DetailModal({ property, onClose, isOpen }) {
 
   return (
     <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white rounded-[8px] w-auto max-w-[1085px] max-h-[750px] h-auto flex flex-col gap-[16px] hover:b">
-      {/* Contenedor principaal del modal */}
-      <div className="bg-[white] rounded-[8px] p-[32px] shadow-lg w-auto max-w-[1085px] h-auto flex flex-col gap-[16px] overflow-hidden" 
+      {/* Contenedor principal del modal */}
+      <div className="bg-[white] rounded-[8px] p-[32px] shadow-lg w-auto max-w-[1085px] h-auto min-h-[800px] flex flex-col gap-[16px] overflow-hidden" 
           onClick={(e) => e.stopPropagation()}>
 
         {/* Header */}
@@ -100,7 +100,7 @@ function DetailModal({ property, onClose, isOpen }) {
             </div>
 
             {/* Imagenes */}
-            <div className="grid grid-rows-[2fr_1fr] gap-[16px] max-h-aspect-video w-full">
+            <div className="grid grid-rows-[2fr_1fr] gap-[16px] max-h-aspect-video w-full h-full">
               {/* Imagen grande arriba */}
               <div className="bg-[#eeeeee] rounded-[8px] flex justify-center items-center relative overflow-hidden">
                 {property?.images?.[0] ? (

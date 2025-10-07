@@ -25,43 +25,44 @@ function Table (){
 
 return (
     <div className="w-auto overflow-x h-full">
-      {/* Contenedor principal del grid */}
-      <div 
-        className="grid ... "
-        style={{
-          gridTemplateColumns: "123fr 128fr 165fr 117fr 563fr 152fr 153fr 150fr 175fr"
-        }}
-      >
-        {/* Fila de encabezados */}
+      <div className="grid grid-cols-5 md:grid-cols-9 auto-rows-min">
+        {/* Encabezado */}
         <div className="contents">
-          {[
-            "Foto",
-            "Oficina",
-            "Referencia",
-            "Tipo",
-            "Dirección",
-            "Precio",
-            "Habitaciones",
-            "Superficie",
-            "Fecha",
-          ].map((header, i) => (
-            <div key={i} className="bg-[#eeeeee] px-[16px] py-[12px] text-gray-700 font-inter font-medium text-base leading-6 tracking-[-0.01em] border-b border-black">
-              {header}
-            </div>
-          ))}
+          <div className="contents">
+            <div className="bg-[#eeeeee] px-[16px] py-[12px] text-gray-700 font-inter font-medium border-b rounded-tl-lg border-black">Foto</div>
+            <div className="bg-[#eeeeee] px-[16px] py-[12px] text-gray-700 font-inter font-medium border-b border-black">Oficina</div>
+            <div className="bg-[#eeeeee] px-[16px] py-[12px] text-gray-700 font-inter font-medium border-b border-black">Referencia</div>
+            <div className="bg-[#eeeeee] px-[16px] py-[12px] text-gray-700 font-inter font-medium border-b border-black">Tipo</div>
+            <div className="hidden md:block bg-[#eeeeee] px-[16px] py-[12px] text-gray-700 font-inter font-medium border-b border-black">Dirección</div>
+            <div className="bg-[#eeeeee] px-[16px] py-[12px] text-gray-700 font-inter font-medium border-b border-black">Precio</div>
+            <div className="hidden md:block bg-[#eeeeee] px-[16px] py-[12px] text-gray-700 font-inter font-medium border-b border-black">Habitaciones</div>
+            <div className="hidden md:block bg-[#eeeeee] px-[16px] py-[12px] text-gray-700 font-inter font-medium border-b border-black">Superficie</div>
+            <div className="hidden md:block bg-[#eeeeee] px-[16px] py-[12px] text-gray-700 font-inter font-medium border-b rounded-tr-lg  border-black">Fecha</div>
+          </div>
+
         </div>
 
-        {/* Filas de datos */}
-        {properties.slice(0,8).map((property, index) => (
-          <RowGroup key={index} data={property} onClick={() => handleRowClick(property)}/>
+        {/* Filas */}
+        {properties.slice(0, 8).map((property, index) => (
+          <RowGroup
+            key={index}
+            data={property}
+            onClick={() => handleRowClick(property)}
+          />
         ))}
       </div>
 
-      {/* Modal de detalle */}
+      {/* Modal */}
       {isModalOpen && (
-        <DetailModal className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" isOpen={isModalOpen} property={selectedProperty} onClose={handleCloseModal} />
+        <DetailModal
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+          isOpen={isModalOpen}
+          property={selectedProperty}
+          onClose={handleCloseModal}
+        />
       )}
     </div>
+
   );
 };
 

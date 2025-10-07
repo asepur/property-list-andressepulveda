@@ -4,7 +4,7 @@
 
 import AddPropertyButton from "../ui/AddPropertyButton";
 
-function HeaderContainer() {
+export function HeaderContainer() {
   return (
     <header className="flex justify-between items-center w-full h-[32px]">
       
@@ -25,5 +25,3 @@ function HeaderContainer() {
     </header>
   );
 }
-
-export default HeaderContainer;
