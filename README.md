@@ -86,7 +86,8 @@ Todos estos desafíos, junto con los pequeños problemas del día a día, los he
 
 ## 6️⃣ Mejoras que harías con más tiempo disponible
 
-- Si tuviera más tiempo, me gustaría:
+Si tuviera más tiempo, me gustaría:
+- Obviamente, incluir la búsqueda y filtrado de datos. Me ha sido imposible llevarlo a cabo a tiempo.
 - Refinar la tabla responsive, completando la solución que había diseñado para que funcione de manera óptima en todas las pantallas.
 - Mejorar detalles de microinteracciones y optimización del layout mobile.
 - Este proyecto me ha permitido enfrentarme a retos propios de un perfil junior en front-end, y aunque me preocupaba en algunos momentos mi capacidad para implementarlo, lo he llevado con ilusión y ganas. Ha sido una experiencia muy enriquecedora para aprender y crecer profesionalmente.
