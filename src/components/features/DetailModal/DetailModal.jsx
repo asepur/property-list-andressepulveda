@@ -136,6 +136,7 @@ function DetailModal({ property, onClose, isOpen }) {
                 {/* Segunda imagen pequeña (última) */}
                 <div className="bg-[#696969] rounded-[8px] flex justify-center items-center relative opacity-[84%] overflow-hidden">
                   {property?.images?.[2] ? (
+                    
                     <img
                       src={property.images[2]}
                       alt={`Imagen 3 de ${property.reference}`}

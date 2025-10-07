@@ -8,15 +8,15 @@ function RowGroup({data, onClick}){
     return(
 
         <div onClick={onClick} className="contents cursor-pointer border-b border-black">
-            <div className="px-[16px] py-[32px] text-gray-700 border">{photo}</div>
-            <div className="px-[16px] py-[32px] text-gray-700">{location}</div>
-            <div className="px-[16px] py-[32px] text-gray-700">{reference}</div>
-            <div className="px-[16px] py-[32px] text-gray-700">{type}</div>
-            <div className="px-[16px] py-[32px] text-gray-700">{address}</div>
-            <div className="px-[16px] py-[32px] text-gray-700">{price}</div>
-            <div className="px-[16px] py-[32px] text-gray-700">{rooms}</div>
-            <div className="px-[16px] py-[32px] text-gray-700">{surface}</div>
-            <div className="px-[16px] py-[32px] text-gray-700">{date}</div>
+            <div className="px-3 py-4 text-gray-700 border">{photo}</div>
+            <div className="px-3 py-4 text-gray-700">{location}</div>
+            <div className="px-3 py-4 text-gray-700">{reference}</div>
+            <div className="px-3 py-4 text-gray-700">{type}</div>
+            <div className="px-3 py-4 text-gray-700 truncate">{address}</div>
+            <div className="px-3 py-4 text-gray-700">{price}</div>
+            <div className="px-3 py-4 text-gray-700">{rooms}</div>
+            <div className="px-3 py-4 text-gray-700">{surface}</div>
+            <div className="px-3 py-4 text-gray-700">{date}</div>
           </div>
     );
 }
