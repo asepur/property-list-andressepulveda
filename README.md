@@ -31,17 +31,24 @@ cd property-list
 # Instalar dependencias
 npm install
 
+---
 
-3️⃣ Funcionalidades principales
+## 3️⃣ Funcionalidades principales
 
 Sidebar responsive: diseño adaptado para desktop y mobile.
 Enlaces interactivos: mejoran la experiencia de usuario.
 Tabla responsive: microinteracciones al pasar el cursor o hacer click en las filas.
 Modal dinámico: muestra detalles de propiedades al interactuar con la tabla.
 
-4️⃣ Estructura del proyecto / arquitectura
+```
+---
+
+## 4️⃣ Estructura del proyecto / arquitectura
 
 El proyecto sigue una organización modular para separar lógica, presentación y datos:
+
+```
+
 src/
 ├─ assets/               # Imágenes e iconos
 ├─ components/
@@ -53,10 +60,12 @@ src/
 ├─ main.jsx              # Entrada principal
 ├─ index.css / App.css    # Estilos globales
 
-
+```
 
 **Patrones y convenciones aplicadas:**
 Separación de lógica y presentación mediante componentes y features/.
+
+---
 
 ## 5️⃣ Desafíos encontrados y cómo los resolviste
 
@@ -72,8 +81,9 @@ Todos estos desafíos, junto con los pequeños problemas del día a día, los he
 > ⚠️ Nota sobre el repositorio:  
 > Como curiosidad, en el repositorio pueden aparecer dos perfiles distintos, ya que trabajé desde dos ordenadores diferentes. ¡Soy yo! Simplemente que tuve que seguir desde el ordenador personal del trabajo, y al hacer commit la noche anterior pude descargarme el proyecto sin problemas.
 
+---
 
-6️⃣ Mejoras que harías con más tiempo disponible
+## 6️⃣ Mejoras que harías con más tiempo disponible
 
 - Si tuviera más tiempo, me gustaría:
 - Refinar la tabla responsive, completando la solución que había diseñado para que funcione de manera óptima en todas las pantallas.
