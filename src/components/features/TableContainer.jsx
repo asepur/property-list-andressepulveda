@@ -13,7 +13,7 @@ function TableContainer() {
     <div className="flex flex-col w-full gap-[16px]">
       <div className="relative flex justify-center w-full">
         {/* Input Field */}
-        <div className="relative flex items-center outline-none border border-gray-300 rounded-[8px] w-[584px] h-[32px] px-[12px] focus-within:border-blue-500 focus-within:ring-1 focus-within:ring-blue-500">
+        <div className="relative flex items-center outline-none border border-gray-300 rounded-lg w-[584px] h-[32px] px-[12px] focus-within:border-blue-500 focus-within:ring-1 focus-within:ring-blue-500">
           {/* Icono de lupa */}
           <MagnifyingGlassIcon className="w-5 h-5 text-gray-400 mr-2" />
 

@@ -6,7 +6,7 @@ import MainContainer from './components/layout/MainContainer';
 
 function App() {
   return (
-    <div className="flex h-screen w-screen overflow-auto bg-gray-100">
+    <div className="flex overflow-auto bg-gray-100">
 
       {/* Sidebar */}
       <Sidebar />
